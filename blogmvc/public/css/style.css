@@ -1,0 +1,160 @@
+.clearfix{
+  clear: both;
+}
+
+
+body {
+  background: #e5ded8;
+  box-sizing: border-box;
+}
+
+.blog-container{
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 20rem;
+}
+
+.blog-container a {
+  color: #4d4dff;
+  text-decoration: none;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
+.blog-container a:hover {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
+@media screen and (min-width: 767px) {
+  .blog-container {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 959px) {
+  .blog-container {
+    width: 800px;
+  }
+}
+
+.blog-cover {
+  background: url("../img/artikel1.jpg");
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 15rem;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+}
+
+.blog-author{
+  padding: 1px 20px;
+}
+
+.blog-author h3 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.blog-author h3::before
+{
+  background: url("../img/avatar1.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  height: 32px;
+  margin-right: 10px;
+  position: relative;
+  top: 8px;
+  width: 32px;
+}
+
+.blog-body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.blog-judul h1 a {
+  color: #333;
+  font-weight: 100;
+}
+
+.blog-kata p {
+  color: #4d4d4d;
+  text-align: justify;
+}
+
+.blog-tag ul {
+  display: flex;
+
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-tag li + li{
+  margin-left: 20px;
+}
+
+.blog-tag a {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 1px;
+  letter-spacing: 1px;
+  padding: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-bawah {
+  border-top: 1px solid #e6e6e6;
+  margin: 0 auto;
+  padding-bottom: 1px;
+  width: 80%;
+}
+
+.blog-bawah ul {
+  list-style: none;
+  display: flex;
+  float:right;
+}
+
+.blog-bawah li:first-child {
+  margin-right: auto;
+}
+
+.blog-bawah li{
+  margin-left: 0 200px;
+}
+
+.blog-bawah li {
+  color: #999999;
+  font-size: 11px;
+  height: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+
+
+}
+.blog-bawah li a {
+  color: #999999;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.blog-bawah li + li {
+  margin-left: 10px;
+}
+
+
+
+.tgl {
+  border: 1px solid #999999;
+  border-radius: 3px;
+}
